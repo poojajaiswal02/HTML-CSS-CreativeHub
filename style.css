@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inknut+Antiqua:wght@600&family=League+Spartan:wght@400;600&display=swap');
+
+.all-btn{
+    background-color: #f44336;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* ===== slide section - 2 =======*/
+.banner-image{
+    height: 90vh;
+}
+.image-text{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+    translate: (-50%, -50%);    
+}
+.image-text h1{
+    font-size: 3rem;
+}
+.image-button .btn{
+    background-color: #f44336;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+/* ==== search domain section - 3 ====*/
+.search-domain{
+    background-color: #192024;
+    padding-top: 35px;
+    color: white;
+}
+.search-domain .title{
+    display: block;
+    margin-bottom: 10px;
+}
+.search-domain .search-input{
+    padding: 16px 30px;
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    color: #2d2d2d;;
+    /* padding: 20px; */
+}
+.search-domain .search-btn{
+    width: 100%;
+    height: 60px;
+    border-radius: 2px;
+    background-color: #f44336;
+    /* padding: 19px 26px; */
+}
+.search-domain .domain-info {
+    font-size: 30px;
+    display: inline-block;
+    padding: 10px 18px 35px 15px;
+}
+.search-domain .domain-info .first{
+    display: flex;
+    padding: 10px 30px 35px 0px;
+}
+.search-domain .domain-info .price{
+    color: #f44336;
+    font-size: 24px;
+}
+.search-domain .domain-info .title{
+    font-size: 18px;
+}
+.search-domain .domain-info .search-para{
+    /* padding: 20px; */
+    font-size: 12px;
+    color: #a3a4a5;
+}
+
+
+/* Card Plan Section first desing  phone size */
+.card-plan{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.card-plan .card-heading{
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+.card-slide{
+    padding: 10px;
+}
+.card-title{
+    font-size: 22px;
+    /* color: #f44336; */
+}
+.order-now-btn{
+    color: white;
+    border-radius: 1px;
+    padding: 15px;
+}
+
+/* Start Circle Section -5 - =====  */
+.circle-section{
+    background-color: #ECEFF1;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* services section 6 ========= */
+.service{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.service-section{
+   border: solid 1px #030303;
+   text-align: center;
+   padding-top: 60px;
+   height: 300px; 
+}
+.service-card{
+    margin-top: 50px;
+}
+.service-section .service-icon{
+    font-size: 62px;
+    color: #f44336;
+}
+.service-section .service-title{
+    font: bold 16px "Open Sans", sans-serif;
+    color: #3d3d3d;
+    margin-top: 40px;
+    margin-bottom: 14px;
+}
+.service-section .service-para{
+    font-size: 16px;
+    /* font-family: Lato; */
+    color: #808080;
+}
+
+/* ==== happy client  section 7 */
+.happy-client{
+    text-align: center;
+    background-color: #ECEFF1;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    font-size: 16px;
+}
+.happy-client .client-name{
+    color: #f44336;
+}
+.textimonial .client-description{
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    color: #808080;
+    margin-top: 31px;
+}
+
+/* ==== section Top footer 8 ==== */
+.contact{
+    background-color: #f44336;
+    padding-top: 35px;
+}
+.top-contain{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.contact .top-contain i{
+    font-size: 50px;
+    margin-right: 10px;
+    color: white;
+    font-size: 30px;
+}
+.contact .top-contain a{
+    color: white;
+    text-decoration: none;
+    line-height: 24px;
+    display: inline-block;
+}
+
+/* === Top footer ===== */
+.top-footer{
+    text-align: center;
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+    background-color: #192024;
+    background-position: center;
+}
+.top-footer .heading{
+    font-size: 16px;
+    text-align: center;
+    /* font-size: 18px; */
+    /* font-family: Lato; */
+    color: #f44336;
+    margin-bottom: 15px;
+    /* display: inline-block; */
+    text-transform: uppercase;
+}
+.top-footer .footer-menu{
+    list-style-type: none;
+    line-height: 30px;
+    text-align: center;
+    padding-left: 0;
+}
+.top-footer .footer-menu .menu-item a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin-left: 0;
+}
+.footer-menu .menu-item a:hover{
+    color: #f44336;
+}
+.top-footer .footer-up img{
+    width: 160px;
+}
+.top-footer .copyright{
+    color: #d0d1e0;
+    font-size: 13.5px;
+    padding-top: 10px;
+}
+.top-footer .social{
+    font-size: 18px;
+    /* font-family: Lato; */
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.top-footer .footer-icon{
+    padding-top: 0;
+    padding-left: 0;
+    /* justify-content: space-between; */
+}
+.top-footer .footer-icon a{
+    color:#d0d1e0;
+    display: inline-block;
+    justify-content: space-between;
+    line-height: 50px;
+    /* display: flex; */
+    margin-right: 21px;
+}
+.top-footer .footer-bottom {
+    background-color: #141b1e;
+}
+.footer-bottom .footer-menu{
+    text-align: center;
+    color: white;
+    display: flex;    
+    justify-content: space-around;
+}
+.footer-bottom .payment-list{
+    color: #90A4AE;
+    display: flex;
+    list-style-type: none;
+}
+.footer-bottom .payment-list li p{
+    margin-right: 19px;
+    font-size: 14px;
+
+}
+.footer-bottom .payment-list li{
+    margin-right:5px;
+    display: inline;
+    font-size: 20px;
+    padding: 5px;
+    /* margin: 8px; */
+}
+
+.whatsapp-chat {
+    position: fixed;
+    bottom: 45px;
+    right: 70px;
+    z-index: 9999;
+}
+
+.whatsapp-chat img { width: 50px;} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1048){
+    /* end footer */
+    .footer-bottom .payment-list li p{
+        margin-right: 19px;
+    }    
+}
+
+@media(max-width:767px){
+    .main-header img{
+        height: 25px;
+    }
+    #icon .menu-toggle{
+        display: block;
+        top: 2px;
+        color: #607D8B;
+    }
+    .main-nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: 0;
+        text-align: center;
+        background: #192025;
+        transform: translateX();
+        transition: all .5s;
+    }
+    .main-nav li{
+        color: white;
+        display: block;
+        margin-left: 0;
+        line-height: 50px;
+        padding: 15px;
+        cursor: pointer;
+        border-bottom: solid 1px #37474F;
+    }
+    .main-nav li a{
+        color: white;
+        margin: 40px 0;
+        line-height: 10px;
+        margin: 40px 0;
+    }
+    .main-nav a.active, a:hover{
+        border: none;
+        color: yellow;
+    }
+
+/* ====== search domain ====== */
+.search-domain .title{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.search-domain .domain-info{
+    width: 50%;
+    float: left;
+    display: block;
+}
+.search-domain .domain-info.first{
+    padding-left: 18px;
+}
+.search-domain .domain-info .price{
+    display: block;
+    text-align: center;
+}
+.search-domain .domain-info .last{
+    margin-top: 10px;
+    text-align: center;
+}
+.search-domain .domain-info .search-para{
+    /* padding: 20px; */
+    font-size: 12px;
+    color: #a3a4a5;
+}
+
+}
+
+
+
+@media(min-width:767px){
+    .contact .top-contain a{
+    display: inline-block;
+    line-height: 24px;
+    font-size: 18px;
+    }
+    /* end footer */
+    .footer-bottom .payment-list li{
+        padding: 15px 0px;
+        font-size: 22px;
+    }
+    .footer-bottom .footer-menu .menu-item{
+        font-size: 14px;
+        color: #fff;
+    }
+    .top-footer.footer-bottom{
+        padding: 15px 0px;
+    }
+    .top-footer .footer-logo{
+        width: 150px;
+    }
+}
+
+/* header mobile view */
+@media (max-width: 576px) {
+    .main-nav #icon{
+        display: block;    
+    }
+    .main-navbar ul{
+        position: flex;
+    }
+}
+

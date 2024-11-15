@@ -1,0 +1,325 @@
+.bg-img{
+    background-image: url("images/blogBanner.jpg");
+    height: 400px;
+    width: 100%;
+}
+.blog-card{
+    border-radius: none!important;
+    background-color: #F44336;
+    /* margin: 15px; */
+}
+.card-img-details{
+    padding: 30px;
+}
+.blog-card img{
+    height: 200px;
+}
+.blogHeading{
+    position: absolute;
+  top: 20%;
+  color: white;
+}
+
+/* card section */
+.blog-social{
+    display: inline-block;
+}
+.blog-social i{
+    margin-right: 5px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: black;
+    font-size: 18px;
+    padding: 0px;
+    color: #F44336;
+    width: 30px;
+    height: 30px;
+    -webkit-transition: all .2s ease-out;
+    line-height: 32px;
+}
+.wrap-blog .btn.classic{
+    background-color: transparent;
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    color: black;
+    padding: 10px 52px;
+    display: block;
+    border-radius: none;
+    border-width: 1px;
+}
+
+/*  2nd row card*/
+.wrap-blog-morden .wrapper{
+    background-color: #192024;
+    padding: 20px;
+    color: #E72F26;
+}
+.wrap-blog-morden .btn.classic{
+    background-color: transparent;
+    text-align: center;
+    border: 1px solid #E72F26;
+    width: 100%;
+    height: 50px;
+    color: #f44336;
+    padding: 10px 52px;
+    display: block;
+    border-radius: none;
+    border-width: 1px;
+}
+.wrapper .infos{
+    display: inline-block;
+    float: right;
+}
+.wrap-blog-morden .infos i{
+    color: #E72F26;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.wrap-blog-morden .infos span{
+    margin-right: 10px;
+}
+
+/* aside bar search */
+.blog .asidebar{
+    margin-top: 20px;
+}
+.asidebar .search-group{
+    position: relative;
+}
+.asidebar .search-group input{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: transparent;
+    background-color: #E8F0FE;
+}
+.asidebar .search-group .seacrh-blog{
+    position: absolute;
+    top: 18px;
+    right: 18px;
+}
+
+/* sidebar post header */
+.asidebar .post{
+    margin-top: 55px;
+}
+.tabs .header {
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 0 25px;
+    margin-bottom: 32px;
+    margin-top: 20px;
+}
+.header .tab-btn{
+    margin-right: 10px;
+    color: #B0BEC5;
+    list-style-type: none;
+    border-bottom: 1px solid #e6e6e6;
+    cursor: pointer;
+    /* padding: 0 15px 20px 15px; */
+    font-size: 17px;
+    border: none;
+    background-color: white;
+}
+.header button.active{
+    color: #E72F26;
+    font-size: 20px;
+    border-bottom: 1px solid #E72F26;
+}
+
+.tabs-content .tabs-item{
+    display: none;
+}
+
+.tabs-content .tabs-item.active{
+    display: block;
+}
+.tabs-item .item-wrap{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.tabs-content .tabs-item img{
+    float: left;
+    margin: 15px 15px 0 0;
+    width: 100px;
+    height: 100px;
+}
+.tabs-content .item-artical{
+    padding-top: 25px;
+    font-size: 18px;
+}
+
+/* categories */
+.blog .asidebar .categories{
+    padding: 30px 20px;
+    margin-top: 50px;
+    background-color: #192024;
+}
+.blog .asidebar .categories .heading.active a{
+    text-decoration: none;
+    color: #E72F26;
+}
+.blog .asidebar .categories .line.active{
+    height: 1px;
+    width: 100%;
+    background-color: #E72F26;
+    margin-bottom: 20px;
+}
+.blog .asidebar .categories .heading{
+    color: white;
+
+}
+.blog .asidebar .categories .heading a{
+    text-decoration: none;
+    color: white;
+    /* margin-bottom: 10px; */    
+}
+.blog .asidebar .categories .heading span{
+    position: absolute!important;
+    float: right!important;
+    /* margin-left: 180px; */
+}
+.blog .asidebar .categories .line{
+    height: 1px;
+    width: 100%;
+    background-color: #474c57;
+    margin-bottom: 20px;
+}
+
+
+/* Archievs */
+.archievs{
+    background-color: #ECEFF1;
+    /* margin-top: 50px!important; */
+}
+.archievs .archiev-wrap{
+    padding: 40px 30px;
+}
+.archievs .archiev-wrap .heading{
+    margin-bottom: 20px;
+    color: Red;
+    font-size: 18px;
+}
+.blog .asidebar .archievs .line{
+    height: 1px;
+    width: 100%;
+    background-color: #E72F26;
+}
+.archiev-wrap .item-wrap img{
+    float: left;
+    margin: 0px 15px 10px 0;
+    height: 70px;
+    width: 80px;
+}
+
+/* Tags */
+.tags .heading{
+    margin-top: 20px;
+    color: #E72F26;
+    margin-bottom: 20px;
+}
+.blog .asidebar .tags .line{
+    height: 1px;
+    width: 100%;
+    background-color: #E72F26;
+    margin-bottom: 20px;
+}
+.asidebar .tags .tag{
+    float: left;
+    margin: 7px;
+    padding: 8px 18px;
+    background-color: #ECEFF1;
+}
+.asidebar .tags .tag a{
+    color: #192024;
+    text-decoration: none;
+    margin-bottom: 12px;
+    /* background-color: #ECEFF1; */
+}
+.asidebar .tags .tag:hover{
+    background-color: #F44336;
+    color: white!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:1024px){
+    
+    .asidebar .post{
+        margin-top: 25px;
+    }
+
+    .tabs .header .list{
+        display: flex;
+        /* justify-content: space-around; */
+        padding: 0 25px;
+        margin-bottom: 22px;
+        margin-top: 10px;
+    }
+    .item-wrap{
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .tabs-content .item-artical{
+        padding-top: 20px;
+        font-size: 16px;
+    }
+    .tabs-content .tabs-item img{
+        float: left;
+        margin: 15px 15px 0 0;
+        width: 120px;
+        height: 100px;
+    }
+
+    /* card section */
+    .blog .asidebar .categories{
+        margin-top: 60px;
+        padding: 18px 30px;
+        background-color: #192024;
+    }
+    .blog .asidebar .categories .heading{
+        font-size: 14px;
+    }
+    .blog .asidebar .categories .line.active{
+        margin-bottom: 5px;
+    }
+    .blog .asidebar .categories .heading span{
+        position: absolute!important;
+        float: right!important;
+        margin-left: 150px;
+    }
+    .blog .asidebar .categories .line{
+        margin-bottom: 10px;
+    }
+
+    .archievs{
+        /* background-color: lightgray; */
+        margin-top: 100px!important;
+    }
+
+    .tags .heading{
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .wrap-blog-morden .infos i{
+        color: #E72F26;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .asidebar .search-group input{
+        width: 100%;
+        
+    }
+}
